@@ -123,7 +123,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Loan_Departement" title="javaTestNG.day1" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Loan_Departement" title="javaTestNG.day1" class="method navigator-link" hash-for-method="login(testing.com, 1234)">login(testing.com, 1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -204,9 +204,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
+                  <a name="login(testing.com, 1234)">
+                  </a> <!-- login(testing.com, 1234) -->
                   <span class="method-name">login</span>
+                  <span class="parameters">(testing.com,1234)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,6 +245,8 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Loan Departement&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Personal Loan&quot;&gt;
+    &lt;parameter name=&quot;API&quot; value=&quot;1234&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;testing.com&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;javaTestNG.day2&quot;/&gt;
       &lt;class name=&quot;javaTestNG.day1&quot;/&gt;
@@ -312,28 +315,28 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'mobileSignOutCarLoad')
-data.setCell(0, 2, 'javaTestNG.day3')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'demo')
+data.setCell(0, 2, 'javaTestNG.day2')
+data.setCell(0, 3, 4);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'demo')
-data.setCell(1, 2, 'javaTestNG.day2')
+data.setCell(1, 1, 'mobileSignOutCarLoad')
+data.setCell(1, 2, 'javaTestNG.day3')
 data.setCell(1, 3, 4);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'demo2')
-data.setCell(2, 2, 'javaTestNG.day2')
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'javaTestNG.day1')
 data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'mobileLoginCarLoad')
-data.setCell(3, 2, 'javaTestNG.day3')
-data.setCell(3, 3, 2);
+data.setCell(3, 1, 'demo2')
+data.setCell(3, 2, 'javaTestNG.day2')
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login')
+data.setCell(4, 1, 'home')
 data.setCell(4, 2, 'javaTestNG.day1')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'home')
-data.setCell(5, 2, 'javaTestNG.day1')
+data.setCell(5, 1, 'mobileLoginCarLoad')
+data.setCell(5, 2, 'javaTestNG.day3')
 data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'webLoginCarLoad')
@@ -347,7 +350,7 @@ window.suiteTableData['Loan_Departement']= { tableData: data, tableDiv: 'times-d
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 ms</span>
+              <span class="suite-total-time">Total running time: 15 ms</span>
               <div id="times-div-Loan_Departement">
               </div> <!-- times-div-Loan_Departement -->
             </div> <!-- times-div -->
@@ -387,80 +390,80 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">prerequester</span>
-                <span class="method-start">20 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">demo</span>
-                <span class="method-start">39 ms</span>
+                <span class="method-start">41 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo2</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-start">51 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">javaTestNG.day1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">home</span>
-                <span class="method-start">54 ms</span>
+                <span class="method-start">57 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">56 ms</span>
+                <span class="method-name">login(testing.com, 1234)</span>
+                <span class="method-start">62 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">lastexecute</span>
-                <span class="method-start">58 ms</span>
+                <span class="method-start">65 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">javaTestNG.day3</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">105 ms</span>
+                <span class="method-start">115 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
-                <span class="method-start">106 ms</span>
+                <span class="method-start">116 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">APILoginCarLoad</span>
-                <span class="method-start">107 ms</span>
+                <span class="method-start">117 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mobileLoginCarLoad</span>
-                <span class="method-start">110 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod</span>
-                <span class="method-start">110 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod</span>
-                <span class="method-start">114 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">mobileSignOutCarLoad</span>
-                <span class="method-start">114 ms</span>
+                <span class="method-start">119 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
                 <span class="method-start">121 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">webLoginCarLoad</span>
+                <span class="method-name">mobileSignOutCarLoad</span>
                 <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">webLoginCarLoad</span>
+                <span class="method-start">128 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">123 ms</span>
+                <span class="method-start">130 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">javaTestNG.day1</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">aftersuite</span>
-                <span class="method-start">128 ms</span>
+                <span class="method-start">135 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
