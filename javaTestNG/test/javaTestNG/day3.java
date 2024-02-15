@@ -1,4 +1,5 @@
 package javaTestNG;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class day3 {
@@ -25,6 +26,11 @@ public class day3 {
 	public void mobileLoginCarLoad() {
 		System.out.println("mobileLogin");
 		
+	}
+	
+	@BeforeMethod
+	public void beforemethod() {
+		System.out.println("i will execute in every method in page 3");
 	}
 	
 	@Test
