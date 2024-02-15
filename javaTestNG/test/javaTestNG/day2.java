@@ -1,4 +1,5 @@
 package javaTestNG;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class day2 {
@@ -13,6 +14,11 @@ public class day2 {
 	public void demo2() {
 		System.out.println("demo2");
 		
+	}
+	
+	@BeforeTest
+	public void prerequester() {
+		System.out.println("I will execute first");
 	}
 
 }

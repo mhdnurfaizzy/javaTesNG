@@ -1,4 +1,5 @@
 package javaTestNG;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class day1 {
@@ -13,6 +14,11 @@ public class day1 {
 	public void home() {
 		System.out.println("home");
 		
+	}
+	
+	@AfterTest
+	public void lastexecute() {
+		System.out.println("I will execute last");
 	}
 
 }

@@ -2,50 +2,58 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-15T10:11:06 ICT" name="Loan Departement" finished-at="2024-02-15T10:11:06 ICT" duration-ms="113">
+  <suite started-at="2024-02-15T11:27:53 ICT" name="Loan Departement" finished-at="2024-02-15T11:27:53 ICT" duration-ms="105">
     <groups>
     </groups>
-    <test started-at="2024-02-15T10:11:06 ICT" name="Personal Loan" finished-at="2024-02-15T10:11:06 ICT" duration-ms="51">
+    <test started-at="2024-02-15T11:27:53 ICT" name="Personal Loan" finished-at="2024-02-15T11:27:53 ICT" duration-ms="52">
       <class name="javaTestNG.day2">
-        <test-method signature="demo()[pri:0, instance:javaTestNG.day2@f0da945]" started-at="2024-02-15T10:11:06 ICT" name="demo" finished-at="2024-02-15T10:11:06 ICT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="prerequester()[pri:0, instance:javaTestNG.day2@130c12b7]" started-at="2024-02-15T11:27:53 ICT" name="prerequester" finished-at="2024-02-15T11:27:53 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequester -->
+        <test-method signature="demo()[pri:0, instance:javaTestNG.day2@130c12b7]" started-at="2024-02-15T11:27:53 ICT" name="demo" finished-at="2024-02-15T11:27:53 ICT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="demo2()[pri:0, instance:javaTestNG.day2@f0da945]" started-at="2024-02-15T10:11:06 ICT" name="demo2" finished-at="2024-02-15T10:11:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="demo2()[pri:0, instance:javaTestNG.day2@130c12b7]" started-at="2024-02-15T11:27:53 ICT" name="demo2" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo2 -->
       </class> <!-- javaTestNG.day2 -->
       <class name="javaTestNG.day1">
-        <test-method signature="home()[pri:0, instance:javaTestNG.day1@290222c1]" started-at="2024-02-15T10:11:06 ICT" name="home" finished-at="2024-02-15T10:11:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="home()[pri:0, instance:javaTestNG.day1@51c668e3]" started-at="2024-02-15T11:27:53 ICT" name="home" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method signature="login()[pri:0, instance:javaTestNG.day1@290222c1]" started-at="2024-02-15T10:11:06 ICT" name="login" finished-at="2024-02-15T10:11:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="login()[pri:0, instance:javaTestNG.day1@51c668e3]" started-at="2024-02-15T11:27:53 ICT" name="login" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
+        <test-method is-config="true" signature="lastexecute()[pri:0, instance:javaTestNG.day1@51c668e3]" started-at="2024-02-15T11:27:53 ICT" name="lastexecute" finished-at="2024-02-15T11:27:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecute -->
       </class> <!-- javaTestNG.day1 -->
     </test> <!-- Personal Loan -->
-    <test started-at="2024-02-15T10:11:06 ICT" name="Car Loan" finished-at="2024-02-15T10:11:06 ICT" duration-ms="12">
+    <test started-at="2024-02-15T11:27:53 ICT" name="Car Loan" finished-at="2024-02-15T11:27:53 ICT" duration-ms="9">
       <class name="javaTestNG.day3">
-        <test-method signature="APILoginCarLoad()[pri:0, instance:javaTestNG.day3@2e385cce]" started-at="2024-02-15T10:11:06 ICT" name="APILoginCarLoad" finished-at="2024-02-15T10:11:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="APILoginCarLoad()[pri:0, instance:javaTestNG.day3@173ed316]" started-at="2024-02-15T11:27:53 ICT" name="APILoginCarLoad" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginCarLoad -->
-        <test-method signature="mobileLoginCarLoad()[pri:0, instance:javaTestNG.day3@2e385cce]" started-at="2024-02-15T10:11:06 ICT" name="mobileLoginCarLoad" finished-at="2024-02-15T10:11:06 ICT" duration-ms="2" status="PASS">
+        <test-method signature="mobileLoginCarLoad()[pri:0, instance:javaTestNG.day3@173ed316]" started-at="2024-02-15T11:27:53 ICT" name="mobileLoginCarLoad" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginCarLoad -->
-        <test-method signature="mobileSignInCarLoad()[pri:0, instance:javaTestNG.day3@2e385cce]" started-at="2024-02-15T10:11:06 ICT" name="mobileSignInCarLoad" finished-at="2024-02-15T10:11:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="mobileSignInCarLoad()[pri:0, instance:javaTestNG.day3@173ed316]" started-at="2024-02-15T11:27:53 ICT" name="mobileSignInCarLoad" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileSignInCarLoad -->
-        <test-method signature="mobileSignOutCarLoad()[pri:0, instance:javaTestNG.day3@2e385cce]" started-at="2024-02-15T10:11:06 ICT" name="mobileSignOutCarLoad" finished-at="2024-02-15T10:11:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="mobileSignOutCarLoad()[pri:0, instance:javaTestNG.day3@173ed316]" started-at="2024-02-15T11:27:53 ICT" name="mobileSignOutCarLoad" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileSignOutCarLoad -->
-        <test-method signature="webLoginCarLoad()[pri:0, instance:javaTestNG.day3@2e385cce]" started-at="2024-02-15T10:11:06 ICT" name="webLoginCarLoad" finished-at="2024-02-15T10:11:06 ICT" duration-ms="1" status="PASS">
+        <test-method signature="webLoginCarLoad()[pri:0, instance:javaTestNG.day3@173ed316]" started-at="2024-02-15T11:27:53 ICT" name="webLoginCarLoad" finished-at="2024-02-15T11:27:53 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginCarLoad -->
