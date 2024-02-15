@@ -19,13 +19,13 @@ public void beforeClass() {
 		
 	}
 	
-	@Test
+	@Test(enabled=false) // if want to disable tc
 	public void mobileSignInCarLoad() {
 		System.out.println("mobileSignIn");
 		
 	}
 	
-	@Test
+	@Test(timeOut=4000) //give timeout 4scnd
 	public void mobileSignOutCarLoad() {
 		System.out.println("mobileSignOut");
 		
