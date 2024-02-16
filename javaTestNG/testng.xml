@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Loan Departement">
+	<listeners>
+		<listener class-name="javaTestNG.Listeners"/>
+	</listeners>
   <test name="Personal Loan">
 	<parameter name="URL" value="testing.com"></parameter>
 	<parameter name="API" value="1234"></parameter>

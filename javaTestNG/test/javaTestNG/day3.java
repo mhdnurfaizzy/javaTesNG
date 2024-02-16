@@ -2,6 +2,7 @@ package javaTestNG;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class day3 {
@@ -48,10 +49,31 @@ public void beforeClass() {
 		System.out.println("i will execute in every method in page 3");
 	}
 	
-	@Test
-	public void APILoginCarLoad() {
+	@Test(dataProvider = "getData")
+	public void APILoginCarLoad(String username, String password) {
 		System.out.println("API");
+		System.out.println(username);
+		System.out.println(password);
 		
+	}
+	
+	@DataProvider
+	public Object getData() {
+		
+		Object[][] data = new Object[3][2];
+		
+		//list set
+		data[0][0] = "firstusername";
+		data[0][1] = "firstpassword";
+		
+		//2nd set
+		data[1][0] = "secondusername";
+		data[1][1] = "secondpassword";
+		
+		//3nd set
+		data[2][0] = "thirdusername";
+		data[2][1] = "thirdpassword";
+		return data;
 	}
 
 }
